@@ -15,5 +15,10 @@ pipeline {
                 bat 'mvn test'
             }
         }
+        stage('Deliver') {
+                    steps {
+                        bat 'echo mjy___'
+                    }
+                }
     }
 }
