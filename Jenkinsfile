@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Deliver') {
                     steps {
-                        bat 'echo mjy___'
+                        bat 'echo "Delivered. mjy___"'
                     }
                 }
     }

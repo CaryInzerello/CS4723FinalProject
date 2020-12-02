@@ -10,7 +10,7 @@ public class TestCase1 extends TestCase{
 	}
 	@Test
 	public void testAddCc() {
-		System.out.println("This test class tests the AddCc() function.");
+		System.out.println("This test class tests the AddCc() function. mjy___");
 		// tests one parameter call
 		try {
 			testEmail.addCc("a@b.com");
